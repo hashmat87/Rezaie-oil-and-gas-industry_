@@ -1,0 +1,292 @@
+body
+{
+background-color: #d49569;
+
+}
+ul
+{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ca772a;
+    text-align: center;
+    
+}
+ul li
+{
+    float: left;
+    padding: 2% 8px;
+    border-radius: 10%;
+}
+ul li a
+{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+ul li a:hover
+{
+    background-color: white;
+    border-radius: 10%;
+    color: coral;
+}
+h2
+{
+    margin-left: 5px;
+    padding: 5px;
+    background: darkolivegreen;
+    color: #efefef;
+    width: 50%;
+    border-radius: 8px;
+
+}
+h2:hover
+{
+    background-color:#a9ac9b;;
+    color: white;
+       
+}
+.slider
+{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.slides
+{
+    width: 800%;
+    height: 500px;
+    display: flex;
+    
+}
+.slides input
+{
+    display: none;
+}
+.slide
+{
+    width: 800px;
+    height: 500px;
+}
+.slide img
+{
+    width: 100%;
+    height: 500px;
+}
+/*css for manual slide navigation*/
+.navigation-manual
+{
+position: absolute;
+width: 800px;
+margin-top: -40px;
+display: flex;
+justify-content: center;
+}
+.manual-btn
+{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.manual-btn:not(:last-child)
+{
+    margin-right: 40px;
+}
+.manual-btn:hover
+{
+   background-color: rgb(255, 0, 0);
+}
+#radio1:checked ~ .first
+{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first
+{
+    margin-left: -50%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.card
+{
+    background-color: darkgrey;
+    width: 270px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.card-image
+{
+    background-color: darkgrey;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+.car-1
+{
+background-image: url('./aks/Wallpaper\ \(10\).jpg');
+}
+.car-2
+{
+background-image: url('./aks/Wallpaper\ \(13\).jpg');
+}
+.car-3
+{
+background-image: url('./aks/Wallpaper\ \(382\).jpg');
+}
+.car-4
+{
+background-image: url('./aks/o-g\ 3.jpg');
+}
+.cad h2
+{
+padding: 12px;
+}
+.card p
+
+{
+    padding: 10px;
+}
+.card a
+{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.card:hover
+{
+background-color: dimgray;
+color: white;
+cursor: pointer;
+transition: all 1sease;
+transform: scale(1.03);
+}
+.sign-up-form
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background:#f3efee;
+    padding: 20px;
+    margin: 8% auto 0%;
+    text-align: center;
+}
+.sign-up-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button
+{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #1c8adb;
+}
+.googel-btn
+{
+    background-color: #db810b;
+}
+a
+{
+    text-decoration: none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or 
+
+{
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.footer
+{
+    margin-top:150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex; 
+}
+.footer div 
+{
+    text-align: center;
+}
+.col-2 
+{
+    flex-grow: 2;
+}
+.footer div h3
+{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a
+{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
